@@ -1,12 +1,9 @@
 require "i18n"
-require "i18n/backends/yaml"
 
 require "./humanize_time/*"
 
-I18n.backend = I18n::Backends::YAML.new.tap do |backend|
-  backend.load_paths << "./src/humanize_time/locales"
-  backend.load
-end
+I18n.load_path += ["./src/humanize_time/locales"]
+I18n.init
 
 module HumanizeTime
   extend self
@@ -87,10 +84,10 @@ module HumanizeTime
   end
 
   private def t(key : String)
-    I18n.t("humanize_time.#{key}")
+    I18n.translate("humanize_time.#{key}")
   end
 
   private def t(key : String, count : Int32)
-    I18n.t("humanize_time.#{key}", count: count)
+    I18n.translate("humanize_time.#{key}", count: count)
   end
 end
