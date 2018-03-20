@@ -2,7 +2,7 @@ require "i18n"
 
 require "./humanize_time/*"
 
-I18n.load_path << File.join(__DIR__, "humanize_time/locales")
+I18n.load_path += ["./src/humanize_time/locales"]
 I18n.init
 
 module HumanizeTime
