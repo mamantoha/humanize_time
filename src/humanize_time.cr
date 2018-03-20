@@ -2,7 +2,9 @@ require "i18n"
 
 require "./humanize_time/*"
 
-I18n.load_path << "/app/lib/humanize_time/src/locales"
+# I18n.load_path << "/app/lib/humanize_time/src/locales"
+
+I18n.load_path << "src/locales"
 I18n.init
 
 module HumanizeTime
