@@ -6,7 +6,7 @@ authors:
 
 dependencies:
   i18n:
-    github: TechMagister/i18n.cr
+    github: vladfaust/i18n.cr
 
 crystal: 0.24.2
 
