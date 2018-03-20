@@ -4,7 +4,7 @@ require "./humanize_time/*"
 
 # I18n.load_path << "/app/lib/humanize_time/src/locales"
 
-I18n.load_path << "src/locales"
+I18n.load_path << File.join(Dir.current, "src/locales")
 I18n.init
 
 module HumanizeTime
@@ -15,7 +15,7 @@ module HumanizeTime
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
   def dir
-    File.join(__DIR__, "locales")
+    Dir.current
   end
 
   # Inspired by http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words
