@@ -15,11 +15,6 @@ module HumanizeTime
   MINUTES_IN_QUARTER_YEAR        = 131400
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
-  def dir
-    Dir.current
-    # __DIR__
-  end
-
   # Inspired by http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words
   def distance_of_time_in_words(from_time : Time, to_time : Time, include_seconds = false)
     distance = to_time - from_time
