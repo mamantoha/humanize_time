@@ -3,6 +3,9 @@ require "i18n"
 require "./humanize_time/*"
 
 I18n.load_path << File.join(__DIR__, "locales")
+# Heroku fix
+I18n.load_path << File.join(Dir.current, "lib/humanize_time/src/locales")
+
 I18n.init
 
 module HumanizeTime
