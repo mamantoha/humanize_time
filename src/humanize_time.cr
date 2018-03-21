@@ -2,9 +2,10 @@ require "i18n"
 
 require "./humanize_time/*"
 
-# I18n.load_path << "/app/lib/humanize_time/src/locales"
+I18n.load_path << File.join(__DIR__, "locales")
+# Heroku fix
+I18n.load_path << File.join(Dir.current, "lib/humanize_time/src/locales")
 
-I18n.load_path << File.join(Dir.current, "src/locales")
 I18n.init
 
 module HumanizeTime
@@ -16,6 +17,7 @@ module HumanizeTime
 
   def dir
     Dir.current
+    # __DIR__
   end
 
   # Inspired by http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words
