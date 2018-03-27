@@ -1,5 +1,10 @@
 # humanize_time
 
+[![Build Status](http://img.shields.io/travis/mamantoha/humanize_time.svg?style=flat)](https://travis-ci.org/mamantoha/humanize_time)
+[![GitHub release](https://img.shields.io/github/release/mamantoha/humanize_time.svg)](https://github.com/mamantoha/humanize_time/releases)
+[![Commits Since Last Release](https://img.shields.io/github/commits-since/mamantoha/humanize_time/latest.svg)](https://github.com/mamantoha/humanize_time/pulse)
+[![License](https://img.shields.io/github/license/mamantoha/humanize_time.svg)](https://github.com/mamantoha/humanize_time/blob/master/LICENSE)
+
 Reports the approximate distance in time between two `Time` objects.
 Pass `include_seconds: true` if you want more detailed approximations when distance < 1 min, 29 secs.
 
