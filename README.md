@@ -8,6 +8,8 @@
 Reports the approximate distance in time between two `Time` objects.
 Pass `include_seconds: true` if you want more detailed approximations when distance < 1 min, 29 secs.
 
+`humanize_time` supports `i18n` translations too so it can be used in internationalized apps.
+
 `humanize_time` is heavily inspired by (read: stolen) [distance_of_time_in_words](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words) method.
 Thanks.
 
