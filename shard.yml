@@ -6,9 +6,8 @@ authors:
 
 dependencies:
   i18n:
-    # github: TechMagister/i18n.cr
-    github: mamantoha/i18n.cr
-    branch: crystal_0.25
+    github: TechMagister/i18n.cr
+    version: ~> 0.2.0
 
 crystal: 0.25.0
 
