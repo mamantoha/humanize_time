@@ -7,8 +7,8 @@ authors:
 dependencies:
   i18n:
     github: TechMagister/i18n.cr
-    version: ~> 0.2.0
+    branch: master
 
-crystal: 0.25.0
+crystal: 0.25.1
 
 license: MIT
