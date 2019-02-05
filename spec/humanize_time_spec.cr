@@ -17,7 +17,7 @@ describe HumanizeTime do
       {from: 150.days.ago, to: Time.now, result: "5 months"},
       {from: 13.months.ago, to: Time.now, result: "about 1 year"},
       {from: 23.months.ago, to: Time.now, result: "almost 2 years"},
-      {from: 81.months.ago, to: Time.now, result: "over 6 years"},
+      {from: 80.months.ago, to: Time.now, result: "over 6 years"},
     ]
 
     test_data.each do |data|
