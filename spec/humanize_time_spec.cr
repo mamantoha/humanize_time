@@ -3,8 +3,8 @@ require "./spec_helper"
 describe HumanizeTime do
   describe "distance_of_time_in_words" do
     test_data = [
-      {from: 1.seconds.ago, to: Time.now, result: "less than 1 minute"},
-      {from: 59.seconds.ago, to: Time.now, result: "less than 1 minute"},
+      {from: 1.seconds.ago, to: Time.now, result: "less than a minute"},
+      {from: 59.seconds.ago, to: Time.now, result: "less than a minute"},
       {from: 61.seconds.ago, to: Time.now, result: "1 minute"},
       {from: 5.minutes.ago, to: Time.now, result: "5 minutes"},
       {from: 30.minutes.ago, to: Time.now, result: "30 minutes"},
@@ -33,7 +33,7 @@ describe HumanizeTime do
       {from: 3.seconds.ago, to: Time.now, result: "less than 5 seconds"},
       {from: 6.seconds.ago, to: Time.now, result: "less than 10 seconds"},
       {from: 25.seconds.ago, to: Time.now, result: "half a minute"},
-      {from: 55.seconds.ago, to: Time.now, result: "less than 1 minute"},
+      {from: 55.seconds.ago, to: Time.now, result: "less than a minute"},
       {from: 59.seconds.ago, to: Time.now, result: "1 minute"},
     ]
 
