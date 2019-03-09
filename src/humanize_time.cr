@@ -37,9 +37,6 @@ module HumanizeTime
   @@locale = "en"
 
   def locale=(locale)
-    # unless I18n.available_locales.includes?(locale)
-    #   raise ArgumentError.new("#{locale.inspect} is not available")
-    # end
     @@locale = locale
   end
 
