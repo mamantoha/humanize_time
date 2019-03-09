@@ -15,7 +15,7 @@ Thanks.
 
 Distances are reported based on the following table:
 
-```
+```console
 0 <-> 29 secs                                                             # => less than a minute
 30 secs <-> 1 min, 29 secs                                                # => 1 minute
 1 min, 30 secs <-> 44 mins, 29 secs                                       # => [2..44] minutes

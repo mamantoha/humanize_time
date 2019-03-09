@@ -12,6 +12,19 @@ module HumanizeTime
   MINUTES_IN_QUARTER_YEAR        = 131400
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
+  @@locale = "en"
+
+  def locale=(locale)
+    unless I18n.available_locales.includes?(locale)
+      raise ArgumentError.new("#{locale.inspect} is not available")
+    end
+    @@locale = locale
+  end
+
+  def locale
+    @@locale
+  end
+
   # Inspired by http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words
   def distance_of_time_in_words(from_time : Time, to_time : Time, include_seconds = false)
     distance = to_time - from_time
@@ -84,10 +97,10 @@ module HumanizeTime
   end
 
   private def t(key : String)
-    I18n.translate("humanize_time.#{key}")
+    I18n.translate("humanize_time.#{key}", force_locale: @@locale)
   end
 
   private def t(key : String, count : Int32)
-    I18n.translate("humanize_time.#{key}", count: count)
+    I18n.translate("humanize_time.#{key}", count: count, force_locale: @@locale)
   end
 end
