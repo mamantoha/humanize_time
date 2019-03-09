@@ -5,10 +5,13 @@ authors:
   - Anton Maminov <anton.maminov@gmail.com>
 
 dependencies:
+  # i18n:
+  #   github: TechMagister/i18n.cr
+  #   branch: master
   i18n:
-    github: TechMagister/i18n.cr
-    branch: master
+    github: vladfaust/i18n.cr
+    version: ~> 0.1.1
 
-crystal: 0.25.1
+crystal: 0.27.2
 
 license: MIT

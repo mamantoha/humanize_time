@@ -1,9 +1,31 @@
 require "i18n"
+require "i18n/backends/yaml"
 
 require "./humanize_time/*"
 
-I18n::Backend::Yaml.embed(["#{__DIR__}/locales"])
-I18n.init
+I18n.backend = I18n::Backends::YAML.new.tap do |backend|
+  backend.load_paths << "#{__DIR__}/locales"
+  backend.class.quantity_key_procs.merge!({
+    "uk" => I18n::Backend::QuantityKeyProc.new do |n|
+      if n == 0
+        "zero"
+      elsif ((n % 10) == 1) && ((n % 100 != 11))
+        # 1, 21, 31, 41, 51, 61...
+        "one"
+      elsif ([2, 3, 4].includes?(n % 10) && ![12, 13, 14].includes?(n % 100))
+        # 2-4, 22-24, 32-34...
+        "few"
+      elsif ((n % 10) == 0 || ![5, 6, 7, 8, 9].includes?(n % 10) || ![11, 12, 13, 14].includes?(n % 100))
+        # 0, 5-20, 25-30, 35-40...
+        "many"
+      else
+        "other"
+      end
+    end
+  })
+
+  backend.load
+end
 
 module HumanizeTime
   extend self
@@ -15,9 +37,9 @@ module HumanizeTime
   @@locale = "en"
 
   def locale=(locale)
-    unless I18n.available_locales.includes?(locale)
-      raise ArgumentError.new("#{locale.inspect} is not available")
-    end
+    # unless I18n.available_locales.includes?(locale)
+    #   raise ArgumentError.new("#{locale.inspect} is not available")
+    # end
     @@locale = locale
   end
 
@@ -97,10 +119,10 @@ module HumanizeTime
   end
 
   private def t(key : String)
-    I18n.translate("humanize_time.#{key}", force_locale: @@locale)
+    I18n.t("humanize_time.#{key}", locale: @@locale)
   end
 
   private def t(key : String, count : Int32)
-    I18n.translate("humanize_time.#{key}", count: count, force_locale: @@locale)
+    I18n.t("humanize_time.#{key}", count: count, locale: @@locale)
   end
 end
