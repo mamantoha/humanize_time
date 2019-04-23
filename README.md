@@ -47,13 +47,13 @@ dependencies:
 ```crystal
 require "humanize_time"
 
-HumanizeTime.distance_of_time_in_words(42.minutes.ago, Time.now)
-HumanizeTime.distance_of_time_in_words(3.seconds.ago, Time.now, include_seconds: true)
+HumanizeTime.distance_of_time_in_words(42.minutes.ago, Time.local)
+HumanizeTime.distance_of_time_in_words(3.seconds.ago, Time.local, include_seconds: true)
 ```
 
 ## Contributing
 
-1. Fork it ( https://github.com/mamantoha/humanize_time/fork )
+1. Fork it (<https://github.com/mamantoha/humanize_time/fork>)
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

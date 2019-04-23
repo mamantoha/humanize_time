@@ -9,6 +9,6 @@ dependencies:
     github: TechMagister/i18n.cr
     branch: master
 
-crystal: 0.25.1
+crystal: 0.28.0
 
 license: MIT
