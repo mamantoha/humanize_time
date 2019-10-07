@@ -43,4 +43,10 @@ describe HumanizeTime do
       end
     end
   end
+
+  describe "distance_of_time_in_words with Time::Span" do
+    it "should accept Time::Span" do
+      HumanizeTime.distance_of_time_in_words(1.second, include_seconds: true).should eq("less than 5 seconds")
+    end
+  end
 end

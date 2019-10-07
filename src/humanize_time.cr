@@ -96,6 +96,10 @@ module HumanizeTime
     end
   end
 
+  def distance_of_time_in_words(distance : Time::Span, include_seconds = false)
+    distance_of_time_in_words(Time.local, Time.local + distance, include_seconds)
+  end
+
   private def t(key : String)
     I18n.translate("humanize_time.#{key}", force_locale: @@locale)
   end
