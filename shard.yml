@@ -1,5 +1,5 @@
 name: humanize_time
-version: 0.3.0
+version: 0.4.0
 
 authors:
   - Anton Maminov <anton.maminov@gmail.com>
@@ -9,6 +9,6 @@ dependencies:
     github: TechMagister/i18n.cr
     branch: master
 
-crystal: 0.28.0
+crystal: 0.31.1
 
 license: MIT
