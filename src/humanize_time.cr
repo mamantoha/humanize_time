@@ -51,9 +51,9 @@ module HumanizeTime
         end
       else
         if distance_in_minutes.to_i.zero?
-          return t("less_than_x_minutes", count: 1)
+          t("less_than_x_minutes", count: 1)
         else
-          return t("x_minutes", count: distance_in_minutes.to_i)
+          t("x_minutes", count: distance_in_minutes.to_i)
         end
       end
     when 2...45
