@@ -6,9 +6,9 @@ authors:
 
 dependencies:
   i18n:
-    github: TechMagister/i18n.cr
-    branch: master
+    github: mamantoha/i18n.cr
+    branch: custom-plural_rule
 
-crystal: 0.31.1
+crystal: 0.32.0
 
 license: MIT

@@ -12,7 +12,7 @@ module HumanizeTime
   MINUTES_IN_QUARTER_YEAR        = 131400
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
-  @@locale = "en"
+  @@locale : String? = nil
 
   def locale=(locale)
     unless I18n.available_locales.includes?(locale)
@@ -22,7 +22,7 @@ module HumanizeTime
   end
 
   def locale
-    @@locale
+    @@locale || I18n.locale || "en"
   end
 
   # Inspired by http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words
@@ -101,10 +101,10 @@ module HumanizeTime
   end
 
   private def t(key : String)
-    I18n.translate("humanize_time.#{key}", force_locale: @@locale)
+    I18n.translate("humanize_time.#{key}", force_locale: locale)
   end
 
   private def t(key : String, count : Int32)
-    I18n.translate("humanize_time.#{key}", count: count, force_locale: @@locale)
+    I18n.translate("humanize_time.#{key}", count: count, force_locale: locale)
   end
 end
