@@ -6,9 +6,9 @@ authors:
 
 dependencies:
   i18n:
-    github: TechMagister/i18n.cr
+    github: mamantoha/i18n.cr
     branch: master
 
-crystal: 0.31.1
+crystal: 0.32.0
 
 license: MIT
