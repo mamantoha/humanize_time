@@ -7,7 +7,6 @@ authors:
 dependencies:
   i18n:
     github: mamantoha/i18n.cr
-    branch: custom-plural_rule
 
 crystal: 0.32.0
 
