@@ -6,8 +6,9 @@ authors:
 
 dependencies:
   i18n:
-    github: mamantoha/i18n.cr
-    branch: master
+    github: TechMagister/i18n.cr
+  i18n_plural_rules:
+    github: mamantoha/i18n_plural_rules
 
 crystal: 0.32.0
 

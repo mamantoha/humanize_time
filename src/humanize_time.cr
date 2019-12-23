@@ -1,4 +1,5 @@
 require "i18n"
+require "i18n_plural_rules"
 
 require "./humanize_time/*"
 
