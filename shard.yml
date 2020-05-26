@@ -4,12 +4,14 @@ version: 0.6.0
 authors:
   - Anton Maminov <anton.maminov@gmail.com>
 
+description: Express time spans in natural language
+
 dependencies:
   i18n:
     github: TechMagister/i18n.cr
   i18n_plural_rules:
     github: mamantoha/i18n_plural_rules
 
-crystal: 0.32.0
+crystal: 0.34.0
 
 license: MIT
