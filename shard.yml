@@ -9,9 +9,8 @@ description: Express time spans in natural language
 dependencies:
   i18n:
     github: TechMagister/i18n.cr
-  i18n_plural_rules:
-    github: mamantoha/i18n_plural_rules
+    branch: master
 
-crystal: 0.34.0
+crystal: 0.35.1
 
 license: MIT

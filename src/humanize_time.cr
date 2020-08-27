@@ -1,6 +1,4 @@
 require "i18n"
-require "i18n_plural_rules"
-
 require "./humanize_time/*"
 
 I18n::Backend::Yaml.embed(["#{__DIR__}/locales"])
