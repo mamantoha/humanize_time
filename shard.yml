@@ -11,6 +11,10 @@ dependencies:
     github: TechMagister/i18n.cr
     branch: master
 
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+
 crystal: 0.35.1
 
 license: MIT
