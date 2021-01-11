@@ -8,13 +8,12 @@ description: Express time spans in natural language
 
 dependencies:
   i18n:
-    github: TechMagister/i18n.cr
-    branch: master
+    github: crystal-i18n/i18n
 
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
 
-crystal: ">= 0.35.1"
+crystal: => 0.35.1
 
 license: MIT
