@@ -8,7 +8,7 @@ describe HumanizeTime do
       HumanizeTime.distance_of_time_in_words(80.months.ago, Time.local).should eq("більше 6 років")
     end
 
-    after_each { I18n.locale = nil }
+    after_each { I18n.locale = "en" }
   end
 
   context "I18n.with_locale" do

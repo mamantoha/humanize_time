@@ -1,7 +1,7 @@
 require "i18n"
 require "./humanize_time/*"
 
-I18n::Backend::Yaml.embed(["#{__DIR__}/locales"])
+I18n.config.loaders << I18n::Loader::YAML.new("#{__DIR__}/locales")
 I18n.init
 
 module HumanizeTime
@@ -11,10 +11,10 @@ module HumanizeTime
   MINUTES_IN_QUARTER_YEAR        = 131400
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
-  @@locale : String? = nil
+  @@locale : String | Symbol | Nil = nil
 
-  def locale=(locale)
-    unless I18n.available_locales.includes?(locale)
+  def locale=(locale : String | Symbol)
+    unless I18n.available_locales.includes?(locale.to_s)
       raise ArgumentError.new("#{locale.inspect} is not available")
     end
     @@locale = locale
@@ -100,10 +100,14 @@ module HumanizeTime
   end
 
   private def t(key : String)
-    I18n.translate("humanize_time.#{key}", force_locale: locale)
+    I18n.with_locale(locale) do
+      I18n.translate("humanize_time.#{key}", force_locale: locale)
+    end
   end
 
   private def t(key : String, count : Int32)
-    I18n.translate("humanize_time.#{key}", count: count, force_locale: locale)
+    I18n.with_locale(locale) do
+      I18n.translate("humanize_time.#{key}", count: count, force_locale: locale)
+    end
   end
 end
