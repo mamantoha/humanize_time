@@ -1,3 +1,3 @@
 module HumanizeTime
-  VERSION = "0.8.1"
+  VERSION = {{ `shards version #{__DIR__}`.chomp.stringify }}
 end
