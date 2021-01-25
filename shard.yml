@@ -9,6 +9,7 @@ description: Express time spans in natural language
 dependencies:
   i18n:
     github: crystal-i18n/i18n
+    version: ~= 0.1.4
 
 development_dependencies:
   ameba:
