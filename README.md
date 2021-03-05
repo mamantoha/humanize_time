@@ -64,7 +64,7 @@ Available locales:
 > ["de-CH", "ml", "nl", "fr-CH", "ka", "sq", "id", "ur", "es-CO", "en", "es-US", "bn", "gl", "de-DE", "ms", "is", "hr", "ca", "lv", "zh-TW", "en-TT", "cy", "az", "en-GB", "el", "cs", "he", "en-CA", "es-NI", "tl", "sw", "wo", "es", "sr", "el-CY", "es-419", "fr-FR", "mr-IN", "uz", "sl", "es-AR", "sk", "ug", "zh-CN", "it-CH", "zh-YUE", "kn", "et", "en-CY", "en-AU", "nb", "it", "mn", "fr", "bg", "nn", "tt", "ko", "eo", "km", "
 hu", "da", "bs", "de-AT", "pap-CW", "pl", "es-MX", "mk", "sv-SE", "pap-AW", "af", "es-CL", "ja", "es-PE", "eu", "es-PA", "be", "pt", "st", "ru", "uk", "fa", "ta", "hi-IN", "zh-HK", "en-US", "pt-BR", "or", "en-ZA", "es-ES", "en-IN", "es-EC", "de", "ne", "mg", "vi", "lo", "lt", "rm", "hi", "th", "fr-CA", "oc", "fi", "ar", "es-CR", "en-NZ", "pa", "sv", "lb", "en-IE", "ro", "tr", "es-VE", "te"]
 
-To re-sync locales run
+To re-sync locales run:
 
 ```console
 crystal tool/sync_locales.cr
@@ -85,4 +85,4 @@ crystal tool/sync_locales.cr
 ## Special thanks
 
 - [rails-i18n](https://github.com/svenfuchs/rails-i18n) community - Locale data
-- [Morgan Aubert](https://github.com/ellmetha) - creator and maintainer of [i18n](https://github.com/crystal-i18n/i18n) an internationalization library for Crystal.
+- [Morgan Aubert](https://github.com/ellmetha) - creator and maintainer of [i18n](https://github.com/crystal-i18n/i18n) an internationalization library for Crystal
