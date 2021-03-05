@@ -1,0 +1,37 @@
+---
+lb:
+  humanize_time:
+    about_x_hours:
+      one: ongeféier eng Stonn
+      other: ongeféier %{count} Stonnen
+    about_x_months:
+      one: ongeféier ee Mount
+      other: ongeféier %{count} Méint
+    about_x_years:
+      one: ongeféier ee Joer
+      other: ongeféier %{count} Joer
+    almost_x_years:
+      one: bal ee Joer
+      other: bal %{count} Joer
+    half_a_minute: eng hallef Minutt
+    less_than_x_seconds:
+      one: manner wéi eng Sekonn
+      other: manner wéi %{count} Sekonnen
+    less_than_x_minutes:
+      one: manner wéi eng Minutt
+      other: manner wéi %{count} Minutten
+    over_x_years:
+      one: méi wéi ee Joer
+      other: méi wéi %{count} Joer
+    x_seconds:
+      one: 1 Sekonn
+      other: '%{count} Sekonnen'
+    x_minutes:
+      one: 1 Minutt
+      other: '%{count} Minutten'
+    x_days:
+      one: 1 Dag
+      other: '%{count} Deeg'
+    x_months:
+      one: 1 Mount
+      other: '%{count} Méint'

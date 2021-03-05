@@ -1,8 +1,9 @@
+---
 uk:
   humanize_time:
     about_x_hours:
-      one: близько %{count} години
-      few: близько %{count} годин
+      one: близько %{count} година
+      few: близько %{count} години
       many: близько %{count} годин
       other: близько %{count} години
     about_x_months:
@@ -16,8 +17,8 @@ uk:
       many: близько %{count} років
       other: близько %{count} року
     almost_x_years:
-      one: майже %{count} рік
-      few: майже %{count} роки
+      one: майже %{count} роки
+      few: майже %{count} років
       many: майже %{count} років
       other: майже %{count} років
     half_a_minute: пів хвилини
@@ -37,27 +38,27 @@ uk:
       many: більше %{count} років
       other: більше %{count} року
     x_seconds:
-      one: "%{count} секунда"
-      few: "%{count} секунди"
-      many: "%{count} секунд"
-      other: "%{count} секунди"
+      one: '%{count} секунда'
+      few: '%{count} секунди'
+      many: '%{count} секунд'
+      other: '%{count} секунди'
     x_minutes:
-      one: "%{count} хвилина"
-      few: "%{count} хвилини"
-      many: "%{count} хвилин"
-      other: "%{count} хвилини"
+      one: '%{count} хвилина'
+      few: '%{count} хвилини'
+      many: '%{count} хвилин'
+      other: '%{count} хвилини'
     x_days:
-      one: "%{count} день"
-      few: "%{count} дні"
-      many: "%{count} днів"
-      other: "%{count} дня"
+      one: '%{count} день'
+      few: '%{count} дні'
+      many: '%{count} днів'
+      other: '%{count} дня'
     x_months:
-      one: "%{count} місяць"
-      few: "%{count} місяці"
-      many: "%{count} місяців"
-      other: "%{count} місяця"
+      one: '%{count} місяць'
+      few: '%{count} місяці'
+      many: '%{count} місяців'
+      other: '%{count} місяця'
     x_years:
-      one: "%{count} рік"
-      few: "%{count} роки"
-      many: "%{count} років"
-      other: "%{count} року"
+      one: '%{count} рік'
+      few: '%{count} роки'
+      many: '%{count} років'
+      other: '%{count} року'

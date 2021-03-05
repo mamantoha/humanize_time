@@ -1,0 +1,40 @@
+---
+es-VE:
+  humanize_time:
+    about_x_hours:
+      one: cerca de 1 hora
+      other: cerca de %{count} horas
+    about_x_months:
+      one: cerca de 1 mes
+      other: cerca de %{count} meses
+    about_x_years:
+      one: cerca de 1 año
+      other: cerca de %{count} años
+    almost_x_years:
+      one: casi 1 año
+      other: casi %{count} años
+    half_a_minute: medio minuto
+    less_than_x_seconds:
+      one: menos de 1 segundo
+      other: menos de %{count} segundos
+    less_than_x_minutes:
+      one: menos de 1 minuto
+      other: menos de %{count} minutos
+    over_x_years:
+      one: más de 1 año
+      other: más de %{count} años
+    x_seconds:
+      one: 1 segundo
+      other: '%{count} segundos'
+    x_minutes:
+      one: 1 minuto
+      other: '%{count} minutos'
+    x_days:
+      one: 1 día
+      other: '%{count} días'
+    x_months:
+      one: 1 mes
+      other: '%{count} meses'
+    x_years:
+      one: 1 año
+      other: '%{count} años'

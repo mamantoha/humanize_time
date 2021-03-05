@@ -1,0 +1,37 @@
+---
+bg:
+  humanize_time:
+    about_x_hours:
+      one: около 1 час
+      other: около %{count} часа
+    about_x_months:
+      one: около 1 месец
+      other: около %{count} месеца
+    about_x_years:
+      one: около 1 година
+      other: около %{count} години
+    almost_x_years:
+      one: почти 1 година
+      other: почти %{count} години
+    half_a_minute: половин минута
+    less_than_x_seconds:
+      one: по-малко от 1 секунда
+      other: по-малко от %{count} секунди
+    less_than_x_minutes:
+      one: по-малко от 1 минута
+      other: по-малко от %{count} минути
+    over_x_years:
+      one: над 1 година
+      other: над %{count} години
+    x_seconds:
+      one: 1 секунда
+      other: '%{count} секунди'
+    x_minutes:
+      one: 1 минута
+      other: '%{count} минути'
+    x_days:
+      one: 1 ден
+      other: '%{count} дни'
+    x_months:
+      one: 1 месец
+      other: '%{count} месеца'

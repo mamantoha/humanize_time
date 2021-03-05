@@ -13,10 +13,15 @@ module HumanizeTime
 
   @@locale : String | Symbol | Nil = nil
 
+  def available_locales
+    I18n.available_locales
+  end
+
   def locale=(locale : String | Symbol)
     unless I18n.available_locales.includes?(locale.to_s)
       raise ArgumentError.new("#{locale.inspect} is not available")
     end
+
     @@locale = locale
   end
 

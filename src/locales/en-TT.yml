@@ -1,5 +1,5 @@
 ---
-en:
+en-TT:
   humanize_time:
     about_x_hours:
       one: about 1 hour
@@ -14,27 +14,27 @@ en:
       one: almost 1 year
       other: almost %{count} years
     half_a_minute: half a minute
-    less_than_x_seconds:
-      one: less than 1 second
-      other: less than %{count} seconds
     less_than_x_minutes:
       one: less than a minute
       other: less than %{count} minutes
+    less_than_x_seconds:
+      one: less than 1 second
+      other: less than %{count} seconds
     over_x_years:
       one: over 1 year
       other: over %{count} years
-    x_seconds:
-      one: 1 second
-      other: '%{count} seconds'
-    x_minutes:
-      one: 1 minute
-      other: '%{count} minutes'
     x_days:
       one: 1 day
       other: '%{count} days'
+    x_minutes:
+      one: 1 minute
+      other: '%{count} minutes'
     x_months:
       one: 1 month
       other: '%{count} months'
     x_years:
       one: 1 year
       other: '%{count} years'
+    x_seconds:
+      one: 1 second
+      other: '%{count} seconds'

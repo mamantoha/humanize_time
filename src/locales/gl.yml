@@ -1,0 +1,37 @@
+---
+gl:
+  humanize_time:
+    about_x_hours:
+      one: aproximadamente unha hora
+      other: '%{count} horas'
+    about_x_months:
+      one: aproximadamente 1 mes
+      other: '%{count} meses'
+    about_x_years:
+      one: aproximadamente 1 ano
+      other: '%{count} anos'
+    half_a_minute: medio minuto
+    less_than_x_seconds:
+      zero: menos dun segundo
+      one: 1 segundo
+      few: poucos segundos
+      other: '%{count} segundos'
+    less_than_x_minutes:
+      zero: menos dun minuto
+      one: 1 minuto
+      other: '%{count} minutos'
+    over_x_years:
+      one: máis dun ano
+      other: '%{count} anos'
+    x_seconds:
+      one: 1 segundo
+      other: '%{count} segundos'
+    x_minutes:
+      one: 1 minuto
+      other: '%{count} minuto'
+    x_days:
+      one: 1 día
+      other: '%{count} días'
+    x_months:
+      one: 1 mes
+      other: '%{count} meses'
