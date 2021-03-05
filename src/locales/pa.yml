@@ -1,0 +1,37 @@
+---
+pa:
+  humanize_time:
+    about_x_hours:
+      one: ਲਗਭਗ 1 ਘੰਟਾ
+      other: ਲਗਭਗ %{count} ਘੰਟੇ
+    about_x_months:
+      one: ਲਗਭਗ 1 ਮਹੀਨਾ
+      other: ਲਗਭਗ %{count} ਮਹੀਨੇ
+    about_x_years:
+      one: ਲਗਭਗ 1 ਸਾਲ
+      other: ਲਗਭਗ %{count} ਸਾਲ
+    almost_x_years:
+      one: ਤਕਰੀਬਨ 1 ਸਾਲ
+      other: ਤਕਰੀਬਨ %{count} ਸਾਲ
+    half_a_minute: ਅੱਧਾ ਮਿੰਟ
+    less_than_x_seconds:
+      one: 1 ਸਕਿੰਟ ਤੋਂ ਘੱਟ
+      other: '%{count} ਸਕਿੰਟਾਂ ਤੋਂ ਘੱਟ'
+    less_than_x_minutes:
+      one: 1 ਮਿੰਟ ਤੋਂ ਘੱਟ
+      other: '%{count} ਮਿੰਟਾਂ ਤੋਂ ਘੱਟ'
+    over_x_years:
+      one: 1 ਸਾਲ ਤੋਂ ਵੱਧ
+      other: '%{count} ਸਾਲਾਂ ਤੋਂ ਵੱਧ'
+    x_seconds:
+      one: 1 ਸਕਿੰਟ
+      other: '%{count} ਸਕਿੰਟ'
+    x_minutes:
+      one: 1 ਮਿੰਟ
+      other: '%{count} ਮਿੰਟ'
+    x_days:
+      one: 1 ਦਿਨ
+      other: '%{count} ਦਿਨ'
+    x_months:
+      one: 1 ਮਹੀਨਾ
+      other: '%{count} ਮਹੀਨੇ'

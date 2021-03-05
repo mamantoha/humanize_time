@@ -10,8 +10,8 @@ Pass `include_seconds: true` if you want more detailed approximations when dista
 
 `humanize_time` supports `i18n` translations too so it can be used in internationalized apps.
 
-`humanize_time` is heavily inspired by (read: stolen) [distance_of_time_in_words](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words) method.
-Thanks.
+`humanize_time` implementation is heavily inspired by (read: stolen) [distance_of_time_in_words](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-distance_of_time_in_words) method.
+Many thanks to Rails community!
 
 Distances are reported based on the following table:
 
@@ -47,8 +47,27 @@ dependencies:
 ```crystal
 require "humanize_time"
 
+HumanizeTime.locale = "es" # or `I18n.locale = "es"`
+
 HumanizeTime.distance_of_time_in_words(42.minutes.ago, Time.local)
+# => 42 minutos
 HumanizeTime.distance_of_time_in_words(3.seconds.ago, Time.local, include_seconds: true)
+# => menos de 5 segundos
+```
+
+## Available locales
+
+Locale data synced with [rails-i18n](https://github.com/svenfuchs/rails-i18n) repository from files found in [rails/locale](http://github.com/svenfuchs/rails-i18n/tree/master/rails/locale/) directory.
+
+Available locales:
+
+> ["de-CH", "ml", "nl", "fr-CH", "ka", "sq", "id", "ur", "es-CO", "en", "es-US", "bn", "gl", "de-DE", "ms", "is", "hr", "ca", "lv", "zh-TW", "en-TT", "cy", "az", "en-GB", "el", "cs", "he", "en-CA", "es-NI", "tl", "sw", "wo", "es", "sr", "el-CY", "es-419", "fr-FR", "mr-IN", "uz", "sl", "es-AR", "sk", "ug", "zh-CN", "it-CH", "zh-YUE", "kn", "et", "en-CY", "en-AU", "nb", "it", "mn", "fr", "bg", "nn", "tt", "ko", "eo", "km", "
+hu", "da", "bs", "de-AT", "pap-CW", "pl", "es-MX", "mk", "sv-SE", "pap-AW", "af", "es-CL", "ja", "es-PE", "eu", "es-PA", "be", "pt", "st", "ru", "uk", "fa", "ta", "hi-IN", "zh-HK", "en-US", "pt-BR", "or", "en-ZA", "es-ES", "en-IN", "es-EC", "de", "ne", "mg", "vi", "lo", "lt", "rm", "hi", "th", "fr-CA", "oc", "fi", "ar", "es-CR", "en-NZ", "pa", "sv", "lb", "en-IE", "ro", "tr", "es-VE", "te"]
+
+To re-sync locales run
+
+```console
+crystal tool/sync_locales.cr
 ```
 
 ## Contributing
@@ -62,3 +81,8 @@ HumanizeTime.distance_of_time_in_words(3.seconds.ago, Time.local, include_second
 ## Contributors
 
 - [mamantoha](https://github.com/mamantoha) Anton Maminov - creator, maintainer
+
+## Special thanks
+
+- [rails-i18n](https://github.com/svenfuchs/rails-i18n) community - Locale data
+- [Morgan Aubert](https://github.com/ellmetha) - creator and maintainer of [i18n](https://github.com/crystal-i18n/i18n) an internationalization library for Crystal.

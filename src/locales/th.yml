@@ -1,0 +1,15 @@
+---
+th:
+  humanize_time:
+    about_x_hours: ประมาณ %{count} ชั่วโมง
+    about_x_months: ประมาณ %{count} เดือน
+    about_x_years: ประมาณ %{count} ปี
+    almost_x_years: เกือบ %{count} ปี
+    half_a_minute: ครึ่งนาที
+    less_than_x_seconds: น้อยกว่า %{count} วินาที
+    less_than_x_minutes: น้อยกว่า %{count} นาที
+    over_x_years: มากกว่า %{count} ปี
+    x_seconds: '%{count} วินาที'
+    x_minutes: '%{count} นาที'
+    x_days: '%{count} วัน'
+    x_months: '%{count} เดือน'

@@ -1,0 +1,37 @@
+---
+or:
+  humanize_time:
+    about_x_hours:
+      one: ପାଖାପାଖି 1 ଘଣ୍ତ
+      other: ପାଖାପାଖି %{count} ଘଣ୍ତ
+    about_x_months:
+      one: ପାଖାପାଖି 1 ମାସ
+      other: ପାଖାପାଖି %{count} ମାସ
+    about_x_years:
+      one: ପାଖାପାଖି 1 year
+      other: ପାଖାପାଖି %{count} years
+    almost_x_years:
+      one: ଅଳ୍ପ ଉଣ 1 ବର୍ଷ
+      other: ଅଳ୍ପ ଉଣ %{count} ବର୍ଷ
+    half_a_minute: ଦେଢ ମିନଟ୍
+    less_than_x_seconds:
+      one: 1 ସେକଣ୍ଢ ବାକ
+      other: '%{count} ସେକଣ୍ଢ ବାକ'
+    less_than_x_minutes:
+      one: 1 ମିନଟ ବାକ
+      other: '%{count} ମିନଟ ବାକ'
+    over_x_years:
+      one: 1 ବର୍ଷରୁ ଅଧିକ
+      other: '%{count} ବର୍ଷରୁ ଅଧିକ'
+    x_seconds:
+      one: 1 ସେକଣ୍ଢ
+      other: '%{count} ସେକଣ୍ଢ'
+    x_minutes:
+      one: 1 ମିନଟ
+      other: '%{count} ମିନଟ'
+    x_days:
+      one: 1  ଦିନ
+      other: '%{count} ଦିନ'
+    x_months:
+      one: 1 ମାସ
+      other: '%{count} ମାସ'

@@ -1,0 +1,34 @@
+---
+bn:
+  humanize_time:
+    about_x_hours:
+      one: প্রায় ১ ঘন্টা
+      other: প্রায় %{count} ঘন্টা
+    about_x_months:
+      one: প্রায় ১ মাস
+      other: প্রায় %{count} মাস
+    about_x_years:
+      one: প্রায় ১ বছর
+      other: প্রায় %{count} বছর
+    half_a_minute: অর্ধেক মিনিট
+    less_than_x_seconds:
+      one: '১ সেকেন্ডর কম '
+      other: '%{count} সেকেন্ডের কম'
+    less_than_x_minutes:
+      one: ১ মিনিটের কম
+      other: '%{count} মিনিটের কম'
+    over_x_years:
+      one: ১ বছরের বেশি
+      other: '%{count} বছরের বেশি'
+    x_seconds:
+      one: ১ সেকেন্ড
+      other: '%{count} সেকেন্ড'
+    x_minutes:
+      one: ১ মিনিট
+      other: '%{count} মিনিট'
+    x_days:
+      one: ১ দিন
+      other: '%{count} দিন'
+    x_months:
+      one: ১ মাস
+      other: '%{count} মাস'

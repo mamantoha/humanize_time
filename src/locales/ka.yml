@@ -1,0 +1,40 @@
+---
+ka:
+  humanize_time:
+    about_x_hours:
+      one: დაახლოებით 1 საათი
+      other: დაახლოებით %{count} საათი
+    about_x_months:
+      one: დაახლოებით 1 თვე
+      other: დაახლოებით %{count} თვე
+    about_x_years:
+      one: დაახლოებით 1 წელი
+      other: დაახლოებით %{count} წელი
+    almost_x_years:
+      one: თითქმის 1 წელი
+      other: თითქმის %{count} წელი
+    half_a_minute: ნახევარი წუთი
+    less_than_x_seconds:
+      one: 1 წამზე ნაკლები
+      other: '%{count} წამზე ნაკლები'
+    less_than_x_minutes:
+      one: 1 წუთზე ნაკლები
+      other: '%{count} წუთზე ნაკლები'
+    over_x_years:
+      one: 1 წელზე მეტი
+      other: '%{count} წელზე მეტი'
+    x_seconds:
+      one: 1 წამი
+      other: '%{count} წამი'
+    x_minutes:
+      one: 1 წუთი
+      other: '%{count} წუთი'
+    x_days:
+      one: 1 დღე
+      other: '%{count} დღე'
+    x_months:
+      one: 1 თვე
+      other: '%{count} თვე'
+    x_years:
+      one: 1 წელი
+      other: '%{count} წელი'

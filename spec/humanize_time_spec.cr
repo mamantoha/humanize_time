@@ -1,6 +1,11 @@
 require "./spec_helper"
 
 describe HumanizeTime do
+  it "returns list of available locales" do
+    HumanizeTime.available_locales.should be_a(Array(String))
+    HumanizeTime.available_locales.size.should eq(115)
+  end
+
   context "with I18n.locale" do
     before_each { I18n.locale = "uk" }
 
@@ -89,16 +94,18 @@ describe HumanizeTime do
         {from: 3.minutes.ago, to: Time.local, result: "3 хвилини"},
         {from: 5.minutes.ago, to: Time.local, result: "5 хвилин"},
         {from: 30.minutes.ago, to: Time.local, result: "30 хвилин"},
-        {from: 59.minutes.ago, to: Time.local, result: "близько 1 години"},
-        {from: 100.minutes.ago, to: Time.local, result: "близько 1 години"},
-        {from: 2.hours.ago, to: Time.local, result: "близько 2 годин"},
+        # {from: 59.minutes.ago, to: Time.local, result: "близько 1 години"},
+        {from: 59.minutes.ago, to: Time.local, result: "близько 1 година"},
+        # {from: 2.hours.ago, to: Time.local, result: "близько 2 годин"},
+        {from: 2.hours.ago, to: Time.local, result: "близько 2 години"},
         {from: 25.hours.ago, to: Time.local, result: "1 день"},
         {from: 14.days.ago, to: Time.local, result: "14 днів"},
         {from: 45.days.ago, to: Time.local, result: "близько 1 місяця"},
         {from: 60.days.ago, to: Time.local, result: "2 місяці"},
         {from: 150.days.ago, to: Time.local, result: "5 місяців"},
         {from: 13.months.ago, to: Time.local, result: "близько 1 року"},
-        {from: 23.months.ago, to: Time.local, result: "майже 2 роки"},
+        # {from: 23.months.ago, to: Time.local, result: "майже 2 роки"},
+        {from: 23.months.ago, to: Time.local, result: "майже 2 років"},
         {from: 80.months.ago, to: Time.local, result: "більше 6 років"},
       ]
 
@@ -122,6 +129,28 @@ describe HumanizeTime do
       test_data.each do |data|
         it "from #{data[:from]} to #{data[:to]} should match #{data[:result]}" do
           HumanizeTime.distance_of_time_in_words(data[:from], data[:to], include_seconds: true).should eq(data[:result])
+        end
+      end
+    end
+  end
+
+  context "with Spanish locale" do
+    before_each do
+      HumanizeTime.locale = "es"
+    end
+
+    after_each do
+      HumanizeTime.locale = "en"
+    end
+
+    describe "distance_of_time_in_words" do
+      test_data = [
+        {from: 3.minutes.ago, to: Time.local, result: "3 minutos"},
+      ]
+
+      test_data.each do |data|
+        it "from #{data[:from]} to #{data[:to]} should match #{data[:result]}" do
+          HumanizeTime.distance_of_time_in_words(data[:from], data[:to]).should eq(data[:result])
         end
       end
     end

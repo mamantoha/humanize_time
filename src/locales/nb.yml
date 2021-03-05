@@ -1,0 +1,40 @@
+---
+nb:
+  humanize_time:
+    about_x_hours:
+      one: rundt 1 time
+      other: rundt %{count} timer
+    about_x_months:
+      one: rundt 1 måned
+      other: rundt %{count} måneder
+    about_x_years:
+      one: rundt 1 år
+      other: rundt %{count} år
+    almost_x_years:
+      one: nesten 1 år
+      other: nesten %{count} år
+    half_a_minute: et halvt minutt
+    less_than_x_seconds:
+      one: mindre enn 1 sekund
+      other: mindre enn %{count} sekunder
+    less_than_x_minutes:
+      one: mindre enn 1 minutt
+      other: mindre enn %{count} minutter
+    over_x_years:
+      one: over 1 år
+      other: over %{count} år
+    x_seconds:
+      one: 1 sekund
+      other: '%{count} sekunder'
+    x_minutes:
+      one: 1 minutt
+      other: '%{count} minutter'
+    x_days:
+      one: 1 dag
+      other: '%{count} dager'
+    x_months:
+      one: 1 måned
+      other: '%{count} måneder'
+    x_years:
+      one: 1 år
+      other: '%{count} år'

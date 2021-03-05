@@ -1,0 +1,37 @@
+---
+az:
+  humanize_time:
+    about_x_hours:
+      one: təxminən 1 saat
+      other: təxminən %{count} saat
+    about_x_months:
+      one: təxminən 1 ay
+      other: təxminən %{count} ay
+    about_x_years:
+      one: təxminən 1 il
+      other: təxminən %{count} il
+    almost_x_years:
+      one: təqribən 1 il
+      other: təqribən %{count} il
+    half_a_minute: yarım dəqiqə
+    less_than_x_seconds:
+      one: 1 saniyədən az
+      other: '%{count} saniyədən az'
+    less_than_x_minutes:
+      one: 1 dəqiqədən az
+      other: '%{count} dəqiqədən az'
+    over_x_years:
+      one: 1 ildən çox
+      other: '%{count} ildən çox'
+    x_seconds:
+      one: 1 saniyə
+      other: '%{count} saniyə'
+    x_minutes:
+      one: 1 dəqiqə
+      other: '%{count} dəqiqə'
+    x_days:
+      one: 1 gün
+      other: '%{count} gün'
+    x_months:
+      one: 1 ay
+      other: '%{count} ay'
