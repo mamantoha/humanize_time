@@ -1,7 +1,7 @@
 require "i18n"
 require "./humanize_time/*"
 
-I18n.config.loaders << I18n::Loader::YAML.new("#{__DIR__}/locales")
+I18n.config.loaders << I18n::Loader::YAML.embed("#{__DIR__}/locales")
 I18n.init
 
 module HumanizeTime
