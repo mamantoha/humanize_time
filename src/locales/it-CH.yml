@@ -35,3 +35,6 @@ it-CH:
     x_months:
       one: 1 mese
       other: '%{count} mesi'
+    x_years:
+      one: 1 anno
+      other: '%{count} anni'
