@@ -15,6 +15,7 @@ Many thanks to Rails community!
 
 Distances are reported based on the following table:
 
+| Value | Result |
 | --- | --- |
 | 0 <-> 29 secs                                                             | less than a minute   |
 | 30 secs <-> 1 min, 29 secs                                                | 1 minute             |
