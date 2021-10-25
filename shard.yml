@@ -1,5 +1,5 @@
 name: humanize_time
-version: 0.10.1
+version: 0.10.2
 
 authors:
   - Anton Maminov <anton.maminov@gmail.com>
@@ -9,13 +9,12 @@ description: Express time spans in natural language
 dependencies:
   i18n:
     github: crystal-i18n/i18n
-    branch: main
-    # version: ~= 0.2.0
+    version: ">= 0.2.1"
 
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
 
-crystal: ">= 0.35.0"
+crystal: ">= 1.0.0"
 
 license: MIT
