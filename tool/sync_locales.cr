@@ -1,6 +1,6 @@
 require "yaml"
 
-`git clone git@github.com:svenfuchs/rails-i18n.git /tmp/rails-i18n`
+`git clone --depth 1 git@github.com:svenfuchs/rails-i18n.git /tmp/rails-i18n`
 
 Dir.glob("/tmp/rails-i18n/rails/locale/*.yml").each do |path|
   locale = Path[path].stem
