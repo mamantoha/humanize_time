@@ -3,7 +3,7 @@ require "./spec_helper"
 describe HumanizeTime do
   it "returns list of available locales" do
     HumanizeTime.available_locales.should be_a(Array(String))
-    HumanizeTime.available_locales.size.should eq(115)
+    HumanizeTime.available_locales.size.should eq(117)
   end
 
   context "with I18n.locale" do

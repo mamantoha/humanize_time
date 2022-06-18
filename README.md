@@ -61,8 +61,7 @@ Locale data synced with [rails-i18n](https://github.com/svenfuchs/rails-i18n) re
 
 Available locales:
 
-> ["de-CH", "ml", "nl", "fr-CH", "ka", "sq", "id", "ur", "es-CO", "en", "es-US", "bn", "gl", "de-DE", "ms", "is", "hr", "ca", "lv", "zh-TW", "en-TT", "cy", "az", "en-GB", "el", "cs", "he", "en-CA", "es-NI", "tl", "sw", "wo", "es", "sr", "el-CY", "es-419", "fr-FR", "mr-IN", "uz", "sl", "es-AR", "sk", "ug", "zh-CN", "it-CH", "zh-YUE", "kn", "et", "en-CY", "en-AU", "nb", "it", "mn", "fr", "bg", "nn", "tt", "ko", "eo", "km", "
-hu", "da", "bs", "de-AT", "pap-CW", "pl", "es-MX", "mk", "sv-SE", "pap-AW", "af", "es-CL", "ja", "es-PE", "eu", "es-PA", "be", "pt", "st", "ru", "uk", "fa", "ta", "hi-IN", "zh-HK", "en-US", "pt-BR", "or", "en-ZA", "es-ES", "en-IN", "es-EC", "de", "ne", "mg", "vi", "lo", "lt", "rm", "hi", "th", "fr-CA", "oc", "fi", "ar", "es-CR", "en-NZ", "pa", "sv", "lb", "en-IE", "ro", "tr", "es-VE", "te"]
+> ["de-CH", "ml", "nl", "fr-CH", "ka", "sq", "id", "ur", "es-CO", "en", "es-US", "bn", "gl", "de-DE", "ms", "is", "hr", "ca", "lv", "zh-TW", "en-TT", "cy", "az", "en-GB", "el", "cs", "he", "en-CA", "es-NI", "tl", "sw", "wo", "es", "sr", "el-CY", "es-419", "fr-FR", "mr-IN", "uz", "sl", "es-AR", "sk", "ug", "zh-CN", "it-CH", "zh-YUE", "kn", "et", "en-CY", "en-AU", "nb", "it", "mn", "fr", "bg", "nn", "tt", "ko", "eo", "km", "hu", "da", "bs", "de-AT", "pap-CW", "pl", "es-MX", "mk", "sv-SE", "pap-AW", "af", "es-CL", "ja", "es-PE", "eu", "es-PA", "be", "pt", "st", "ru", "kk", "fy", "uk", "fa", "ta", "hi-IN", "zh-HK", "en-US", "pt-BR", "or", "en-ZA", "es-ES", "en-IN", "es-EC", "de", "ne", "mg", "vi", "lo", "lt", "rm", "hi", "th", "fr-CA", "oc", "fi", "ar", "es-CR", "en-NZ", "pa", "sv", "lb", "en-IE", "ro", "tr", "es-VE", "te"]
 
 To re-sync locales run:
 
