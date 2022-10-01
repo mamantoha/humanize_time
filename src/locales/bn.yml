@@ -2,17 +2,17 @@
 bn:
   humanize_time:
     about_x_hours:
-      one: প্রায় ১ ঘন্টা
-      other: প্রায় %{count} ঘন্টা
+      one: প্রায় ১ ঘণ্টা
+      other: প্রায় %{count} ঘণ্টা
     about_x_months:
       one: প্রায় ১ মাস
       other: প্রায় %{count} মাস
     about_x_years:
       one: প্রায় ১ বছর
       other: প্রায় %{count} বছর
-    half_a_minute: অর্ধেক মিনিট
+    half_a_minute: অর্ধ মিনিট
     less_than_x_seconds:
-      one: '১ সেকেন্ডর কম '
+      one: ১ সেকেন্ডর কম
       other: '%{count} সেকেন্ডের কম'
     less_than_x_minutes:
       one: ১ মিনিটের কম
