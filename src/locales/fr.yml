@@ -26,17 +26,17 @@ fr:
       one: plus d'un an
       other: plus de %{count} ans
     x_seconds:
-      one: 1 seconde
+      one: '%{count} seconde'
       other: '%{count} secondes'
     x_minutes:
-      one: 1 minute
+      one: '%{count} minute'
       other: '%{count} minutes'
     x_days:
-      one: 1 jour
+      one: '%{count} jour'
       other: '%{count} jours'
     x_months:
-      one: 1 mois
+      one: '%{count} mois'
       other: '%{count} mois'
     x_years:
-      one: 1 an
+      one: '%{count} an'
       other: '%{count} ans'

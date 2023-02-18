@@ -1,16 +1,16 @@
 ---
 ko:
   humanize_time:
-    about_x_hours: 약 %{count}시간
-    about_x_months: 약 %{count}달
-    about_x_years: 약 %{count}년
-    almost_x_years: '%{count}년 이하'
+    about_x_hours: 대략 %{count}시간
+    about_x_months: 대략 %{count}개월
+    about_x_years: 대략 %{count}년
+    almost_x_years: 거의 %{count}년
     half_a_minute: 30초
-    less_than_x_seconds: '%{count}초 이하'
-    less_than_x_minutes: '%{count}분 이하'
-    over_x_years: '%{count}년 이상'
+    less_than_x_seconds: '%{count}초 미만'
+    less_than_x_minutes: '%{count}분 미만'
+    over_x_years: '%{count}년 초과'
     x_seconds: '%{count}초'
     x_minutes: '%{count}분'
     x_days: '%{count}일'
-    x_months: '%{count}달'
+    x_months: '%{count}개월'
     x_years: '%{count}년'

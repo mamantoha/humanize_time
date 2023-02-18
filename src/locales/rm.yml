@@ -53,7 +53,7 @@ rm:
       other: '%{count} secundas'
     x_minutes:
       zero: '%{count} minutas'
-      one: 1 minuta
+      one: '%{count} minuta'
       two: '%{count} minutas'
       few: '%{count} minutas'
       many: '%{count} minutas'

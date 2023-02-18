@@ -24,17 +24,17 @@ el-CY:
       one: πάνω από ένα χρόνο
       other: πάνω από %{count} χρόνια
     x_seconds:
-      one: 1 δευτερόλεπτο
+      one: '%{count} δευτερόλεπτο'
       other: '%{count} δευτερόλεπτα'
     x_minutes:
-      one: 1 λεπτό
+      one: '%{count} λεπτό'
       other: '%{count} λεπτά'
     x_days:
-      one: 1 μέρα
+      one: '%{count} μέρα'
       other: '%{count} ημέρες'
     x_months:
-      one: 1 μήνα
+      one: '%{count} μήνα'
       other: '%{count} μήνες'
     x_years:
-      one: 1 χρόνος
+      one: '%{count} χρόνος'
       other: '%{count} χρόνια'

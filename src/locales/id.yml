@@ -16,11 +16,11 @@ id:
     half_a_minute: setengah menit
     less_than_x_seconds:
       zero: kurang dari 1 detik
-      one: kurang dari 1 detik
+      one: kurang dari %{count} detik
       other: kurang dari %{count} detik
     less_than_x_minutes:
       zero: kurang dari 1 menit
-      one: kurang dari 1 menit
+      one: kurang dari %{count} menit
       other: kurang dari  %{count} menit
     over_x_years:
       one: lebih dari setahun

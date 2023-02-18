@@ -18,7 +18,7 @@ eu:
       one: segundu bat baino gutxiago
       other: '%{count} segundu baino gutxiago'
     less_than_x_minutes:
-      one: 1 minutu bat baino gutxiago
+      one: '%{count} minutu bat baino gutxiago'
       other: '%{count} minutu baino gutxiago'
     over_x_years:
       one: urte bat baino gehiago

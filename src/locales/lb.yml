@@ -24,14 +24,14 @@ lb:
       one: méi wéi ee Joer
       other: méi wéi %{count} Joer
     x_seconds:
-      one: 1 Sekonn
+      one: '%{count} Sekonn'
       other: '%{count} Sekonnen'
     x_minutes:
-      one: 1 Minutt
+      one: '%{count} Minutt'
       other: '%{count} Minutten'
     x_days:
-      one: 1 Dag
+      one: '%{count} Dag'
       other: '%{count} Deeg'
     x_months:
-      one: 1 Mount
+      one: '%{count} Mount'
       other: '%{count} Méint'

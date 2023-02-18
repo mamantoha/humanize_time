@@ -2,36 +2,36 @@
 mn:
   humanize_time:
     about_x_hours:
-      one: 1 цаг орчим
+      one: '%{count} цаг орчим'
       other: '%{count} цаг орчим'
     about_x_months:
-      one: 1 сар орчим
+      one: '%{count} сар орчим'
       other: '%{count} сар орчим'
     about_x_years:
-      one: 1 жил орчим
+      one: '%{count} жил орчим'
       other: '%{count} жил орчим'
     almost_x_years:
-      one: бараг 1 жил
+      one: бараг %{count} жил
       other: бараг %{count} жил
     half_a_minute: хагас минут
     less_than_x_seconds:
-      one: 1 секундээс бага
+      one: '%{count} секундээс бага'
       other: '%{count} секундээс бага'
     less_than_x_minutes:
-      one: 1 минутаас бага
+      one: '%{count} минутаас бага'
       other: '%{count} минутаас бага'
     over_x_years:
-      one: 1 жилээс илүү
+      one: '%{count} жилээс илүү'
       other: '%{count} жилээс илүү'
     x_seconds:
-      one: 1 секунд
+      one: '%{count} секунд'
       other: '%{count} секунд'
     x_minutes:
-      one: 1 минут
+      one: '%{count} минут'
       other: '%{count} минут'
     x_days:
-      one: 1 өдөр
+      one: '%{count} өдөр'
       other: '%{count} өдөр'
     x_months:
-      one: 1 сар
+      one: '%{count} сар'
       other: '%{count} сар'

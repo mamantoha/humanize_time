@@ -36,5 +36,5 @@ fa:
       one: یک ماه
       other: '%{count} ماه'
     x_years:
-      one: 1 سال
+      one: '%{count} سال'
       other: '%{count} سال'

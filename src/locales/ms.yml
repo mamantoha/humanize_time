@@ -2,16 +2,16 @@
 ms:
   humanize_time:
     about_x_hours:
-      one: lebih kurang 1 jam
+      one: lebih kurang %{count} jam
       other: lebih kurang %{count} jam
     about_x_months:
-      one: lebih kurang 1 bulan
+      one: lebih kurang %{count} bulan
       other: lebih kurang %{count} bulan
     about_x_years:
-      one: lebih kurang 1 tahun
+      one: lebih kurang %{count} tahun
       other: lebih kurang %{count} tahun
     almost_x_years:
-      one: hampir 1 tahun
+      one: hampir %{count} tahun
       other: hampir %{count} tahun
     half_a_minute: setengah minit
     less_than_x_seconds:
@@ -21,17 +21,17 @@ ms:
       one: kurang dari satu minit
       other: kurang dari %{count} minit
     over_x_years:
-      one: lebih 1 tahun
+      one: lebih %{count} tahun
       other: lebih %{count} tahun
     x_seconds:
-      one: 1 saat
+      one: '%{count} saat'
       other: '%{count} saat'
     x_minutes:
-      one: 1 minit
+      one: '%{count} minit'
       other: '%{count} minit'
     x_days:
-      one: 1 hari
+      one: '%{count} hari'
       other: '%{count} hari'
     x_months:
-      one: 1 bulan
+      one: '%{count} bulan'
       other: '%{count} bulan'

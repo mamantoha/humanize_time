@@ -2,39 +2,39 @@
 ca:
   humanize_time:
     about_x_hours:
-      one: aproximadament 1 hora
+      one: aproximadament %{count} hora
       other: aproximadament %{count} hores
     about_x_months:
-      one: aproximadament 1 mes
+      one: aproximadament %{count} mes
       other: aproximadament %{count} mesos
     about_x_years:
-      one: aproximadament 1 any
+      one: aproximadament %{count} any
       other: aproximadament %{count} anys
     almost_x_years:
-      one: quasi 1 any
+      one: quasi %{count} any
       other: quasi %{count} anys
     half_a_minute: mig minut
     less_than_x_seconds:
-      one: menys d'1 segon
+      one: menys d'%{count} segon
       other: menys de %{count} segons
     less_than_x_minutes:
-      one: menys d'1 minut
+      one: menys d'%{count} minut
       other: menys de %{count} minuts
     over_x_years:
-      one: més d'1 any
+      one: més d'%{count} any
       other: més de %{count} anys
     x_seconds:
-      one: 1 segon
+      one: '%{count} segon'
       other: '%{count} segons'
     x_minutes:
-      one: 1 minut
+      one: '%{count} minut'
       other: '%{count} minuts'
     x_days:
-      one: 1 dia
+      one: '%{count} dia'
       other: '%{count} dies'
     x_months:
-      one: 1 mes
+      one: '%{count} mes'
       other: '%{count} mesos'
     x_years:
-      one: 1 year
+      one: '%{count} year'
       other: '%{count} years'

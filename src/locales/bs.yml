@@ -17,7 +17,7 @@ bs:
       many: oko %{count} godina
       other: oko %{count} godina
     almost_x_years:
-      one: skoro 1 godina
+      one: skoro %{count} godina
       few: skoro %{count} godine
       many: skoro %{count} godina
       other: skoro %{count} godina
@@ -38,22 +38,22 @@ bs:
       many: preko %{count} godina
       other: preko %{count} godina
     x_seconds:
-      one: 1 sekund
+      one: '%{count} sekund'
       few: '%{count} sekunde'
       many: '%{count} sekundi'
       other: '%{count} sekundi'
     x_minutes:
-      one: 1 minut
+      one: '%{count} minut'
       few: '%{count} minute'
       many: '%{count} minuta'
       other: '%{count} minuta'
     x_days:
-      one: 1 dan
+      one: '%{count} dan'
       few: '%{count} dana'
       many: '%{count} dana'
       other: '%{count} dana'
     x_months:
-      one: 1 mjesec
+      one: '%{count} mjesec'
       few: '%{count} mjeseca'
       many: '%{count} mjeseci'
       other: '%{count} mjeseci'

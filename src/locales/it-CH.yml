@@ -11,7 +11,7 @@ it-CH:
       one: circa un anno
       other: circa %{count} anni
     almost_x_years:
-      one: circa 1 anno
+      one: circa %{count} anno
       other: circa %{count} anni
     half_a_minute: mezzo minuto
     less_than_x_seconds:
@@ -24,17 +24,17 @@ it-CH:
       one: oltre un anno
       other: oltre %{count} anni
     x_seconds:
-      one: 1 secondo
+      one: '%{count} secondo'
       other: '%{count} secondi'
     x_minutes:
-      one: 1 minuto
+      one: '%{count} minuto'
       other: '%{count} minuti'
     x_days:
-      one: 1 giorno
+      one: '%{count} giorno'
       other: '%{count} giorni'
     x_months:
-      one: 1 mese
+      one: '%{count} mese'
       other: '%{count} mesi'
     x_years:
-      one: 1 anno
+      one: '%{count} anno'
       other: '%{count} anni'
