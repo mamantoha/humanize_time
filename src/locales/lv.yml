@@ -43,6 +43,6 @@ lv:
       one: '%{count} diena'
       other: '%{count} dienas'
     x_months:
-      zero: 0 gadi
+      zero: '%{count} mēneši'
       one: '%{count} mēnesis'
       other: '%{count} mēneši'

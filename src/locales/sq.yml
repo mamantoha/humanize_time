@@ -23,12 +23,12 @@ sq:
     over_x_years:
       one: mbi %{count} vit
       other: mbi %{count} vjet
-    x_days:
-      one: '%{count} ditë'
-      other: '%{count} ditë'
     x_minutes:
       one: '%{count} minutë'
       other: '%{count} minuta'
+    x_days:
+      one: '%{count} ditë'
+      other: '%{count} ditë'
     x_months:
       one: '%{count} muaj'
       other: '%{count} muaj'
