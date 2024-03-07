@@ -79,3 +79,10 @@ cy:
       few: '%{count} mis'
       many: '%{count} mis'
       other: '%{count} mis'
+    x_years:
+      zero: '%{count} blwyddyn'
+      one: 1 flwyddyn
+      two: '%{count} blwyddyn'
+      few: '%{count} blwyddyn'
+      many: '%{count} blwyddyn'
+      other: '%{count} blwyddyn'
