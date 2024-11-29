@@ -12,7 +12,7 @@ Dir.glob("/tmp/rails-i18n/rails/locale/*.yml").each do |path|
 
     output = "./src/locales/#{locale}.yml"
 
-    File.open(output, "w") { |f| hash.to_yaml(f) }
+    File.open(output, "w") { |file| hash.to_yaml(file) }
   end
 end
 
