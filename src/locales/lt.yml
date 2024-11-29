@@ -46,3 +46,7 @@ lt:
       one: '%{count} mėnesis'
       few: '%{count} mėnesiai'
       other: '%{count} mėnesių'
+    x_years:
+      one: '%{count} metai'
+      few: '%{count} metai'
+      other: '%{count} metai'
