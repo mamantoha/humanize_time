@@ -1,6 +1,6 @@
 # humanize_time
 
-![Crystal CI](https://github.com/mamantoha/humanize_time/workflows/Crystal%20CI/badge.svg?branch=master)
+[![Crystal CI](https://github.com/mamantoha/humanize_time/actions/workflows/crystal.yml/badge.svg)](https://github.com/mamantoha/humanize_time/actions/workflows/crystal.yml)
 [![GitHub release](https://img.shields.io/github/release/mamantoha/humanize_time.svg)](https://github.com/mamantoha/humanize_time/releases)
 [![Commits Since Last Release](https://img.shields.io/github/commits-since/mamantoha/humanize_time/latest.svg)](https://github.com/mamantoha/humanize_time/pulse)
 [![License](https://img.shields.io/github/license/mamantoha/humanize_time.svg)](https://github.com/mamantoha/humanize_time/blob/master/LICENSE)
