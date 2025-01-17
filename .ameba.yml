@@ -1,3 +1,6 @@
+Excluded:
+  - lib/**/*
+
 Metrics/CyclomaticComplexity:
   Description: Disallows methods with a cyclomatic complexity higher than `MaxComplexity`
   MaxComplexity: 10
