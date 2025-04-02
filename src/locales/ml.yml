@@ -35,3 +35,6 @@ ml:
     x_months:
       one: '%{count} മാസം'
       other: '%{count} മാസം'
+    x_years:
+      one: '%{count} വർഷം'
+      other: '%{count} വർഷങ്ങൾ'
