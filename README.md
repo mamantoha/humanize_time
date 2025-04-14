@@ -59,9 +59,9 @@ HumanizeTime.distance_of_time_in_words(3.seconds.ago, Time.local, include_second
 
 Locale data synced with [rails-i18n](https://github.com/svenfuchs/rails-i18n) repository from files found in [rails/locale](http://github.com/svenfuchs/rails-i18n/tree/master/rails/locale/) directory.
 
-Available 121 locales:
+Available 123 locales:
 
-> ["af", "ar", "az", "be", "bg", "bn", "bs", "ca", "cs", "cy", "da", "de", "de-AT", "de-CH", "de-DE", "dz", "el", "el-CY", "en", "en-AU", "en-CA", "en-CY", "en-GB", "en-IE", "en-IN", "en-NZ", "en-TT", "en-US", "en-ZA", "eo", "es", "es-419", "es-AR", "es-CL", "es-CO", "es-CR", "es-EC", "es-ES", "es-MX", "es-NI", "es-PA", "es-PE", "es-US", "es-VE", "et", "eu", "fa", "fi", "fr", "fr-CA", "fr-CH", "fr-FR", "fy", "gd", "gl", "he", "hi", "hi-IN", "hr", "hu", "id", "is", "it", "it-CH", "ja", "ka", "kk", "km", "kn", "ko", "lb", "lo", "lt", "lv", "mg", "mk", "ml", "mn", "mr-IN", "ms", "nb", "ne", "nl", "nn", "oc", "or", "pa", "pap-AW", "pap-CW", "pl", "pt", "pt-BR", "rm", "ro", "ru", "sc", "sk", "sl", "sq", "sr", "st", "sv", "sv-FI", "sv-SE", "sw", "ta", "te", "th", "tl", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "wo", "zh-CN", "zh-HK", "zh-TW", "zh-YUE"]
+> ["af", "ar", "az", "be", "bg", "bn", "bs", "ca", "cnr", "cs", "cy", "da", "de", "de-AT", "de-CH", "de-DE", "dz", "el", "el-CY", "en", "en-AU", "en-CA", "en-CY", "en-GB", "en-IE", "en-IN", "en-NZ", "en-TT", "en-US", "en-ZA", "eo", "es", "es-419", "es-AR", "es-CL", "es-CO", "es-CR", "es-EC", "es-ES", "es-MX", "es-NI", "es-PA", "es-PE", "es-US", "es-VE", "et", "eu", "fa", "fi", "fr", "fr-CA", "fr-CH", "fr-FR", "fy", "gd", "gl", "he", "hi", "hi-IN", "hr", "hu", "hy", "id", "is", "it", "it-CH", "ja", "ka", "kk", "km", "kn", "ko", "lb", "lo", "lt", "lv", "mg", "mk", "ml", "mn", "mr-IN", "ms", "nb", "ne", "nl", "nn", "oc", "or", "pa", "pap-AW", "pap-CW", "pl", "pt", "pt-BR", "rm", "ro", "ru", "sc", "sk", "sl", "sq", "sr", "st", "sv", "sv-FI", "sv-SE", "sw", "ta", "te", "th", "tl", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "wo", "zh-CN", "zh-HK", "zh-TW", "zh-YUE"]
 
 To re-sync locales run:
 
