@@ -25,10 +25,8 @@ jobs:
         uses: crystal-lang/install-crystal@v1
       - name: Check out repository code
         uses: actions/checkout@v6
-      - name: Install dependencies
-        run: shards install
-      - name: Check ameba
-        run: ./bin/ameba
+      - name: Run Ameba linter
+        uses: crystal-ameba/github-action@master
 
   test:
     strategy:
