@@ -11,7 +11,7 @@ module HumanizeTime
   MINUTES_IN_QUARTER_YEAR        = 131400
   MINUTES_IN_THREE_QUARTERS_YEAR = 394200
 
-  @@locale : String | Symbol | Nil = nil
+  @@locale : String | Symbol? = nil
 
   def available_locales
     I18n.available_locales
