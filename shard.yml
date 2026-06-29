@@ -11,11 +11,6 @@ dependencies:
     github: crystal-i18n/i18n
     version: ">= 0.2.1"
 
-development_dependencies:
-  ameba:
-    github: crystal-ameba/ameba
-    branch: master
-
 crystal: ">= 1.0.0"
 
 license: MIT
